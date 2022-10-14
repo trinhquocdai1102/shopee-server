@@ -1,0 +1,28 @@
+{
+    "name": "shopee-server",
+    "version": "1.0.0",
+    "description": "shopee api",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --inspect server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trinhquocdai1102/shopee-server.git"
+    },
+    "author": "daitq",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/trinhquocdai1102/shopee-server/issues"
+    },
+    "homepage": "https://github.com/trinhquocdai1102/shopee-server#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1",
+        "mongoose": "^6.6.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
